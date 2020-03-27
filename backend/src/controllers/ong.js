@@ -13,7 +13,7 @@ module.exports = {
         //  Passa parametros body para varaveis
         const {name,email,whatsapp,city,uf}=body;
         // Verifica se a Key é permitida
-        if(parms.key==='1234567890'){
+        //if(parms.key==='1234567890'){
             // Criando id
             const id = crypto.randomBytes(4).toString('HEX');
             // Cria variavel insert
@@ -26,14 +26,14 @@ module.exports = {
                 ,data:insert
                 ,msg:"SUCCESS"
             });
-        }else{
+        /*}else{
             // Resposta
             return res.status(401).json({
                 query:parms
                 ,data:body
                 ,msg:"NO KEY OR KEY NOT EXISTS"
             });
-        }
+        }*/
     },
 
     async select_all(request,res){

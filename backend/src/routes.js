@@ -9,9 +9,9 @@ const routes = express.Router();
 * Routes
 */
 // ONG
-routes.post('/ONG',ong.create);
-routes.get('/ONG',ong.select_all);
-routes.get('/ONG/:id',ong.select_id);
+routes.post('/ongs',ong.create);
+routes.get('/ongs',ong.select_all);
+routes.get('/ongs/:id',ong.select_id);
 // INCIDENTS
 routes.post('/incidents',incident.create);
 routes.get('/incidents',incident.select_all);
