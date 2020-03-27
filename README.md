@@ -8,11 +8,12 @@ Usando apenas o javascript, HTML e CSS.
 A intenção do curso era nada menos que ensinar a usarmos node.js no back-end, ReactJS no front-end e React Native no mobile.
 
 Poderá ver o projeto aqui:
+
 [Omni Stack 11](https://rocketseat.com.br/week/inscricao/11.0)
 
 O layout Original você pode ver aqui:
 
-[Layout Original]()
+[Layout Original](https://www.figma.com/file/nJPNFO7lIHbo8LMpkCKRR4/Be-The-Hero-OmniStack-11?node-id=16%3A698)
 
 ## Mas eu fui mais além
 
@@ -39,7 +40,8 @@ Como achei o projeto muito simples, agora irei listar algumas coisa que achei qu
 Como comentamos acima fizemos muitias mudanças e elas impactaram no layout do site assim como em sua programação. Para isso precisamos recriar parte do site e adcionar páginas que não existiam no projeto original.
 
 Assim ficou o Layout pós mudança:
-[Layout Modificado]()
+
+[Layout Modificado](https://www.figma.com/file/vSlPfYqcUC2OsOZJSyALra/Be-The-Hero-OmniStack-11-Modificado)
 
 ## Instalação
 
@@ -77,7 +79,9 @@ Um jovem amante da técnologia, que quer ver o mundo um lugar melhor. Amante por
 Sempre estou em busca de projetos novs para aumentar meus conhecimentos e ajudar o máximo quem precisa, Se tem um projeto diferente estou aqui para te ajudar.
 
 Conhecer mais projetos:
+
 [GitHub](https://github.com/AndreyDN)
+
 [Site](http://andreydidoff.com.br)
 
 ## Achou um erro nesse meu projeto?
