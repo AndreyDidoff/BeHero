@@ -1,7 +1,7 @@
 // Requires
 const connection = require('../database/connect');
-const crypto = require('crypto');
 const table_db = "ONGs";
+import generateUniqueId from '../utils/generateUniqueId';
 // Exports
 module.exports = {
 
@@ -15,7 +15,7 @@ module.exports = {
         // Verifica se a Key é permitida
         //if(parms.key==='1234567890'){
             // Criando id
-            const id = crypto.randomBytes(4).toString('HEX');
+            const id = generateUniqueId();
             // Cria variavel insert
             const insert = {"id":id,"name":name,"email":email,"whatsapp":whatsapp,"city":city,"uf":uf};
             // Insere no banco
