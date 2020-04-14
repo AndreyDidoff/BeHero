@@ -3,7 +3,6 @@ const connection = require('../database/connect');
 const table_db = "incidents";
 // Exports
 module.exports = {
-
     async create(request,res){
         // Pega todos os paramentros da query e colocar na variavel
         const parms = request.query;
